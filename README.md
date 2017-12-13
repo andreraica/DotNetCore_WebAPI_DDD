@@ -1,0 +1,2 @@
+# DotNetCore_WebAPI_DDD
+Projeto Base DotNetCore_WebAPI_DDD
