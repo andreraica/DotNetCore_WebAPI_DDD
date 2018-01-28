@@ -1,0 +1,16 @@
+{
+  "ApiGrayLog": {
+    "UrlApi": "http://prdlogsrv.grupoltm.com.br:12201/gelf",
+    "CredentialsPass": "admin:admin"
+  },
+  "StorageConnectionString": {
+
+    "ConnectionString": "http://prdlogsrv.grupoltm.com.br:12201/gelf"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  }
+}

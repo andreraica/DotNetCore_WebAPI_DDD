@@ -1,0 +1,51 @@
+{
+	"id": "c203c9c7-60f5-0ad1-6039-c5f519fbcd79",
+	"name": "NetCoreApiDDD",
+	"description": "",
+	"order": [
+		"a8e48f4d-b91c-af5e-cde6-c14f5cf509c5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1517108962672,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "a8e48f4d-b91c-af5e-cde6-c14f5cf509c5",
+			"headers": "Authorization: Basic bHRtOmx0bTIwMTY=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bHRtOmx0bTIwMTY=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "basic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "var data = JSON.parse(responseBody);\npostman.setGlobalVariable(\"NetCoreApiDDD_Token\", data.access_token);",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1517109116527,
+			"name": "Token",
+			"description": "",
+			"collectionId": "c203c9c7-60f5-0ad1-6039-c5f519fbcd79",
+			"responses": []
+		}
+	]
+}

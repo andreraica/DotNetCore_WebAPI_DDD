@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Simple authentication token provider for ASP.NET Core.</Description>
+    <Authors>Nate Barbettini</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>TokenProvider</AssemblyName>
+    <PackageId>TokenProvider</PackageId>
+    <PackageTags>token;authentication;security;jwt</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\CrossCutting\CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
